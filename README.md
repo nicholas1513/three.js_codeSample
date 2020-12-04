@@ -1,3 +1,15 @@
+# Sample Code
+
+This is just a sample of the work that I am able to accomplish with React, Typescript, and Three.js.  More tools were 
+used, but these are the main focus here.  I completed much of the work before committing it to a repository.  However,
+I would like to build on it here! 
+
+When you launch the app, you should be able to load up some "items" into a truck's "loading zone".  However, the truck 
+is not there at the moment so you'll have to bring your imagination for now.  Moving the slider loads items onto, or off of, the 
+truck in a specific order. You can click/drag to rotate the canvas, along with a few other orbital controls.  
+
+#
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
