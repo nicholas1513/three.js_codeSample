@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  position: relative;
+}
+
+.truckLoader {  
+  background-color: #181A1B;
+  position: relative !important;
+  overflow: auto;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+}
+
+.truckLoader-canvas{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+}
+
+.sample-control-group {
+  position: absolute;
+  bottom: 10%;
+  margin-left: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #4E5558;
+  border: 5px solid #3E4446;
+}
+
+#sample-control-label{
+  color: white ;
+}
+
+.sample-control, .sample-control.sample-control-label  {
+  display: block;
+  min-width: 250px;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  margin-right: 2%;
+  padding-right: 10px;
+}
+
+.sample-sequence-slider > .MuiSlider-rail{
+  color: #fff ;
+}
+
+.sample-sequence-slider > .MuiSlider-track{
+  color: #b8bfff ;
+}
+
+.sample-sequence-slider > .MuiSlider-thumb{
+  color: #6D95CC ;
+}
+
+.sample-sequence-slider > .MuiSlider-mark{
+  opacity: .0;
+}
